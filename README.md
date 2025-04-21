@@ -30,12 +30,12 @@ This project brings together multiple performance data sources provide by the Ch
 
 **Data Modelling**
 - Calculating **EWMA (7-day)** and **28-day rolling averages** to assess acute-chronic workloads
-- Creating key flags such as:
+- Creating flags such as:
   - `Readiness to Perform` (based on load spikes, recovery scores / flags, peak speed)
   - `Injury Risk Score` (a weighted score from multiple fatigue indicators)
 - Predicting future values (next-day recovery and session load) using machine learning:
   - Random Forest Regressor & Classifier models
-  - Added to dashboard as proof of concept
+  - Metrics Added to dashboard as proof of concept
 
 ---
 
